@@ -90,7 +90,7 @@ evens = [num for num in numbers if num % 2 == 0]
 # create a new list containing only the names that start with 's' make sure they are capitalized (regardless of their original case)
 names = ["Sarah", "jorge", "sam", "frank", "bob", "sandy"]
 s_names = [name.capitalize() for name in names if name[0].lower() == 's']
-print(s_names)
+# print(s_names)
 
 
 
@@ -101,7 +101,20 @@ print(s_names)
 # Create a new dictionary
 
 # empty
-
+d1 = {}
+d2 = dict()
 # key value pairs
-
+d3 = {
+    "name": "Tom",
+    5676: "woooooo",
+    "age": 40
+}
 # access an element via its key
+d3["name"]  # => "Tom"
+
+print(d3["name"]) # +> "Tom"
+print(d3[5676])  # +> "woooooo"
+
+d3["height"] = 345
+
+print(d3)
