@@ -1,7 +1,9 @@
 # lets import what we need and start working on a REPL
 from store import Store
+from data_for_store import cats
 
-my_store = Store("Bobs Emporium", ["False Legs", "Baseball Bats", "Fruit", "Bobs Special Place"])
+
+my_store = Store("Bobs Emporium", [cats["legs"], cats["fruit"], cats["special"], cats["bats"]])
 
 print(my_store)
 # print(repr(my_store))
