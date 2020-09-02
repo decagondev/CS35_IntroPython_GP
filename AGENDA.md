@@ -26,4 +26,4 @@
 - input parser
 - creation of categories
 - 5 min break
-- wrap up 
+- wrap up
