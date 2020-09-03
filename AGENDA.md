@@ -27,3 +27,13 @@
 - 5 min break
 - creation of categories
 - wrap up
+
+## Day 4 (Composition & Inheritance)
+- talk about inheritance
+- talk about composition
+- 5 min break
+- implement product class
+- make some sub classes
+- 5 min break
+- talk about these concepts pertaining to the adventure game
+- wrap up
